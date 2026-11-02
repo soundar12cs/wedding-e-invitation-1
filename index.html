@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff6f0">
+  <meta name="description" content="A premium wedding invitation for Aarav and Meera">
+  <title>Aarav & Meera | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <section id="welcome" class="welcome-screen" aria-label="Wedding invitation welcome">
+    <div class="welcome-glow"></div>
+    <div class="welcome-copy">
+      <p class="eyebrow">Together with their families</p>
+      <p class="welcome-invite">You are invited</p>
+    </div>
+    <button class="envelope-wrap" id="openEnvelope" aria-label="Open wedding invitation">
+      <span class="envelope-shadow"></span>
+      <span class="envelope">
+        <span class="envelope-back"></span>
+        <span class="envelope-letter">
+          <span class="mini-monogram">A <em>&</em> M</span>
+          <span>December 14, 2026</span>
+        </span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-front"></span>
+        <span class="wax-seal"><span>AM</span></span>
+      </span>
+      <span class="tap-hint">Tap to open <i class="fa-solid fa-heart"></i></span>
+    </button>
+    <div class="invitation-card" id="invitationCard" aria-hidden="true">
+      <div class="card-flower left">❦</div>
+      <p>THE WEDDING OF</p>
+      <h1>Aarav <span>&</span> Meera</h1>
+      <div class="gold-line"></div>
+      <p class="date-script">Sunday, the Fourteenth of December</p>
+      <p>Two Thousand Twenty-Six</p>
+      <p class="venue-small">The Royal Palace · Jaipur</p>
+      <button class="enter-button" id="enterInvitation">Enter our celebration</button>
+    </div>
+  </section>
+
+  <main id="mainContent" class="main-content">
+    <nav class="navbar wedding-nav fixed-top" aria-label="Main navigation">
+      <div class="container-fluid px-lg-5">
+        <a class="nav-brand" href="#home">A <span>&</span> M</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navMenu"><div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#story">Our Story</a><a class="nav-link" href="#events">Events</a><a class="nav-link" href="#gallery">Gallery</a><a class="nav-link" href="#rsvp">RSVP</a>
+        </div></div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="floating-hearts" aria-hidden="true">♥ ♡ ♥</div>
+      <div class="hero-content" data-aos="zoom-in" data-aos-duration="1400">
+        <p class="eyebrow light">WE ARE GETTING MARRIED</p>
+        <h2>Aarav <span>&</span> Meera</h2>
+        <p class="hero-date">14 · 12 · 2026</p>
+        <a href="#events" class="outline-button">Celebrate with us</a>
+      </div>
+      <a class="scroll-cue" href="#couple" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+    </header>
+
+    <section id="couple" class="section couple-section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up"><p class="eyebrow">The Bride & Groom</p><h2>Two souls, one beautiful journey</h2><div class="heading-ornament"><span></span><i class="fa-solid fa-heart"></i><span></span></div></div>
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-md-5 text-center" data-aos="fade-right"><div class="portrait-wrap"><img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=900&q=85" alt="Aarav" loading="lazy"><span class="portrait-frame"></span></div><h3>Aarav Sharma</h3><p class="family">Son of Rajesh & Sunita Sharma</p></div>
+          <div class="col-md-2 text-center rings" data-aos="zoom-in"><i class="fa-solid fa-ring"></i><i class="fa-solid fa-heart heart-one"></i><i class="fa-solid fa-heart heart-two"></i></div>
+          <div class="col-md-5 text-center" data-aos="fade-left"><div class="portrait-wrap"><img src="https://images.unsplash.com/photo-1617922001439-4a2e6562f328?auto=format&fit=crop&w=900&q=85" alt="Meera" loading="lazy"><span class="portrait-frame"></span></div><h3>Meera Kapoor</h3><p class="family">Daughter of Vikram & Anjali Kapoor</p></div>
+        </div>
+        <p class="love-note" data-aos="fade-up">“With our hearts full of joy, we invite you to witness the beginning of our forever.”</p>
+      </div>
+    </section>
+
+    <section id="story" class="section story-section">
+      <div class="container"><div class="section-heading" data-aos="fade-up"><p class="eyebrow">How it all began</p><h2>Our Love Story</h2></div>
+        <div class="timeline">
+          <article class="story-item" data-aos="fade-right"><div class="story-card"><img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=85" alt="First meeting" loading="lazy"><div><small>2019</small><h3>First Meeting</h3><p>A chance encounter at a friend's celebration turned into a conversation neither of us wanted to end.</p></div></div><span class="story-dot"></span></article>
+          <article class="story-item reverse" data-aos="fade-left"><div class="story-card"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=85" alt="First conversation" loading="lazy"><div><small>2020</small><h3>First Conversation</h3><p>Long calls, shared dreams and countless little moments made ordinary days feel extraordinary.</p></div></div><span class="story-dot"></span></article>
+          <article class="story-item" data-aos="fade-right"><div class="story-card"><img src="https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?auto=format&fit=crop&w=800&q=85" alt="Engagement" loading="lazy"><div><small>2025</small><h3>The Engagement</h3><p>Under a sky full of stars, one question changed our lives—and opened the door to forever.</p></div></div><span class="story-dot"></span></article>
+          <article class="story-item reverse" data-aos="fade-left"><div class="story-card"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=85" alt="Wedding day" loading="lazy"><div><small>2026</small><h3>Wedding Day</h3><p>Now we begin our greatest adventure, surrounded by the people who made us who we are.</p></div></div><span class="story-dot"></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="countdown" class="countdown-section"><div class="container text-center" data-aos="zoom-in"><p class="eyebrow light">Counting every heartbeat</p><h2>Until We Say “I Do”</h2><div class="countdown" id="countdownTimer"><div><strong id="days">0</strong><span>Days</span></div><div><strong id="hours">0</strong><span>Hours</span></div><div><strong id="minutes">0</strong><span>Minutes</span></div><div><strong id="seconds">0</strong><span>Seconds</span></div></div></div></section>
+
+    <section id="events" class="section events-section"><div class="container"><div class="section-heading" data-aos="fade-up"><p class="eyebrow">Save the date</p><h2>Wedding Celebrations</h2></div><div class="row g-4 justify-content-center">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="0"><article class="event-card"><div class="event-icon">✦</div><small>THE PROMISE</small><h3>Engagement</h3><p class="event-date">13 December 2026 · 7:00 PM</p><p>An evening of music, laughter and blessings as we begin our journey together.</p><div class="event-venue"><i class="fa-solid fa-location-dot"></i> Amber Garden, Jaipur</div></article></div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="120"><article class="event-card featured"><div class="event-icon">♡</div><small>THE SACRED UNION</small><h3>Muhurtham</h3><p class="event-date">14 December 2026 · 10:30 AM</p><p>We would be honoured to have your blessings for our wedding ceremony.</p><div class="event-venue"><i class="fa-solid fa-location-dot"></i> The Royal Palace, Jaipur</div></article></div>
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="240"><article class="event-card"><div class="event-icon">♬</div><small>THE CELEBRATION</small><h3>Reception</h3><p class="event-date">14 December 2026 · 7:00 PM</p><p>Join us for an elegant evening of dinner, dance and joyful celebration.</p><div class="event-venue"><i class="fa-solid fa-location-dot"></i> Crystal Ballroom, Jaipur</div></article></div>
+    </div></div></section>
+
+    <section id="scratch" class="section scratch-section"><div class="container"><div class="row align-items-center g-5"><div class="col-lg-5" data-aos="fade-right"><p class="eyebrow">A little surprise for you</p><h2>Scratch to Reveal</h2><p>Scratch the golden panel to discover a special message sealed just for you.</p></div><div class="col-lg-7" data-aos="zoom-in"><div class="scratch-card-wrap"><canvas id="scratchCanvas" width="600" height="260" aria-label="Scratch card"></canvas><div class="scratch-message"><small>A SECRET PROMISE</small><strong>Your blessings are<br>our greatest gift.</strong></div></div></div></div></div></section>
+
+    <section id="gallery" class="section gallery-section"><div class="container-fluid px-lg-5"><div class="section-heading" data-aos="fade-up"><p class="eyebrow">Captured moments</p><h2>Our Gallery</h2></div><div class="gallery-grid">
+      <figure data-aos="zoom-in"><img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85" alt="Wedding moment" loading="lazy"><figcaption><i class="fa-solid fa-expand"></i></figcaption></figure>
+      <figure data-aos="zoom-in"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=85" alt="Celebration" loading="lazy"><figcaption><i class="fa-solid fa-expand"></i></figcaption></figure>
+      <figure data-aos="zoom-in"><img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=85" alt="Couple portrait" loading="lazy"><figcaption><i class="fa-solid fa-expand"></i></figcaption></figure>
+      <figure data-aos="zoom-in"><img src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=900&q=85" alt="Wedding details" loading="lazy"><figcaption><i class="fa-solid fa-expand"></i></figcaption></figure>
+      <figure data-aos="zoom-in"><img src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=900&q=85" alt="Wedding embrace" loading="lazy"><figcaption><i class="fa-solid fa-expand"></i></figcaption></figure>
+    </div></div></section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true"><button aria-label="Close gallery"><i class="fa-solid fa-xmark"></i></button><img src="" alt="Gallery preview"></div>
+
+    <section id="venue" class="section venue-section"><div class="container"><div class="row g-0 venue-card"><div class="col-lg-5 venue-copy" data-aos="fade-right"><p class="eyebrow">Join us at</p><h2>The Royal Palace</h2><p>Amer Road, Jaipur, Rajasthan<br>India 302002</p><a class="gold-button" href="https://www.google.com/maps/search/?api=1&query=Amer+Palace+Jaipur" target="_blank" rel="noopener">Get Directions <i class="fa-solid fa-arrow-right"></i></a></div><div class="col-lg-7" data-aos="fade-left"><iframe title="Wedding venue map" src="https://maps.google.com/maps?q=Amer%20Palace%20Jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe></div></div></div></section>
+
+    <section id="rsvp" class="section rsvp-section"><div class="container"><div class="row justify-content-center"><div class="col-lg-8" data-aos="fade-up"><div class="rsvp-panel"><div class="text-center"><p class="eyebrow">Kindly respond</p><h2>Répondez s'il vous plaît</h2><p>Please confirm your attendance by 30 November 2026.</p></div><form id="rsvpForm" novalidate><div class="row g-3"><div class="col-md-6"><label for="guestName">Guest Name *</label><input id="guestName" name="name" type="text" required></div><div class="col-md-6"><label for="mobile">Mobile Number *</label><input id="mobile" name="mobile" type="tel" required pattern="[0-9+() -]{7,20}"></div><div class="col-md-6"><label for="guestCount">Number of Guests</label><select id="guestCount" name="guests"><option>1</option><option>2</option><option>3</option><option>4</option></select></div><div class="col-md-6"><label for="attendance">Attending *</label><select id="attendance" name="attendance" required><option value="">Please choose</option><option value="yes">Joyfully attending</option><option value="no">Regretfully declining</option></select></div><div class="col-12"><label for="rsvpMessage">Personal Message</label><textarea id="rsvpMessage" name="message" rows="3"></textarea></div><div class="col-12 text-center"><button class="gold-button" type="submit">Send My Response</button></div></div><p class="form-status" id="rsvpStatus" role="status"></p></form></div></div></div></div></section>
+
+    <section id="guestbook" class="section guestbook-section"><div class="container"><div class="section-heading" data-aos="fade-up"><p class="eyebrow">Leave us a memory</p><h2>Guestbook</h2></div><div class="row g-5"><div class="col-lg-5" data-aos="fade-right"><form id="guestbookForm" class="guestbook-form" novalidate><label for="wisherName">Your Name *</label><input id="wisherName" name="name" required><label for="wish">Your Wish *</label><textarea id="wish" name="wish" rows="5" required maxlength="300"></textarea><button class="outline-button dark" type="submit">Share Blessing</button><p id="guestbookStatus" role="status"></p></form></div><div class="col-lg-7"><div class="wish-list" id="wishList" aria-live="polite"></div></div></div></div></section>
+
+    <section class="share-section"><div class="container text-center" data-aos="zoom-in"><p class="eyebrow">Spread the joy</p><h2>Share Our Celebration</h2><div class="share-actions"><a id="whatsappShare" href="#" target="_blank" rel="noopener" class="gold-button"><i class="fa-brands fa-whatsapp"></i> Share on WhatsApp</a><button id="downloadInvitation" class="outline-button dark"><i class="fa-solid fa-download"></i> Download Invitation</button></div></div></section>
+
+    <footer class="thank-you"><div class="floating-flowers" aria-hidden="true">❦ ♡ ❦</div><div class="container" data-aos="fade-up"><p class="eyebrow light">With love & gratitude</p><h2>Thank you for being part<br>of our celebration</h2><p class="footer-names">Aarav & Meera</p><p class="footer-date">14 December 2026 · Jaipur</p></div></footer>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Play background music" aria-pressed="false"><i class="fa-solid fa-play"></i><span class="music-bars"><b></b><b></b><b></b></span></button>
+  <audio id="backgroundMusic" loop preload="none"><source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
